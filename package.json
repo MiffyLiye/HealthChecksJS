@@ -1,14 +1,22 @@
 {
   "name": "@miffyliye/health-checks",
   "version": "1.0.1",
-  "description": "",
+  "description": "A generic health checker.",
   "main": "index.js",
   "scripts": {
-    "test": "jest -c jest.config.js"
+    "test": "jest -c jest.config.js",
+    "upload-codecov": "codecov"
   },
-  "author": "",
+  "keywords": [
+    "health",
+    "check",
+    "checker"
+  ],
+  "author": "MiffyLiye",
+  "repository": "https://github.com/MiffyLiye/HealthChecksJS",
   "license": "MIT",
   "devDependencies": {
+    "codecov": "^3.7.2",
     "jest": "^26.4.2"
   }
 }

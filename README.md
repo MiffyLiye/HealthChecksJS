@@ -1,4 +1,6 @@
 # Health Checks
+[![Build Status](https://travis-ci.org/MiffyLiye/HealthChecksJS.svg?branch=master)](https://travis-ci.org/MiffyLiye/HealthChecksJS)
+[![codecov](https://codecov.io/gh/MiffyLiye/HealthChecksJS/branch/master/graph/badge.svg)](https://codecov.io/gh/MiffyLiye/HealthChecksJS)
 
 A generic health checker.
 
@@ -13,7 +15,7 @@ npm install @miffyliye/health-checks
 Include in your project:
 
 ```javascript
-var { HealthChecker, HealthStatus } = require("@miffyliye/health-checks");
+var { HealthChecker, HealthStatus } = require('@miffyliye/health-checks');
 const healthChecker = new HealthChecker();
 healthChecker.addCheck(async () => {
     if (Math.random() > 0.5) {
