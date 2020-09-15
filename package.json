@@ -1,0 +1,14 @@
+{
+  "name": "@miffyliye/health-checks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest -c jest.config.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
