@@ -1,5 +1,5 @@
-const HealthChecker = require('./src/health-checker');
-const HealthStatus = require('./src/health-status');
+const HealthChecker = require('../src/health-checker');
+const HealthStatus = require('../src/health-status');
 
 module.exports = async (app) => {
   app.get('/health', async (req, res) => {
