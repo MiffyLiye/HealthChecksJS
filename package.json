@@ -1,6 +1,6 @@
 {
   "name": "@miffyliye/health-checks",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A generic health checker.",
   "main": "index.js",
   "scripts": {

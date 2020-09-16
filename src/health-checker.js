@@ -45,7 +45,7 @@ class HealthChecker {
             }
         }
         return {
-            status: results.length > 0 ? status.name : HealthStatus.Unhealthy.name,
+            status: status.name,
             checks: results,
         };
     }

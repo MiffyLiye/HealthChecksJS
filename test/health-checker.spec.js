@@ -6,10 +6,12 @@ describe('Health Checker', () => {
         healthChecker = new HealthChecker();
     });
 
-    it('should return unhealthy status when there is no check', async () => {
-        const res = await healthChecker.getStatus();
+    it('should return healthy status when there is no check', async () => {
+        healthChecker = new HealthChecker();
 
-        expect(res.status).toBe('unhealthy');
+        const res = await healthChecker.getStatus({});
+
+        expect(res.status).toBe('healthy');
     });
 
     it('should return healthy status when all checks health', async () => {
